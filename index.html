@@ -1,7 +1,26 @@
+<!-- myapp/templates/index.html -->
+
 <!DOCTYPE html>
-<html lang="en-us">
-	<div>
-    		<a href="https://github.com/Footbik/physical.git/viber/manage.py" target="_blank">
-		<script data-plotly="user001:2"  src="https://github.com/Footbik/physical.git/viber/manage.py" async></script>
-	</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Python Script</title>
+</head>
+<body>
+    <h1>Run Python Script from GitHub</h1>
+    <button id="run-script">Run Script</button>
+
+    <script>
+        document.getElementById('manage.py').addEventListener('click', function() {
+            fetch('/manage.py/')
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    alert(data.message);
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
 </html>
