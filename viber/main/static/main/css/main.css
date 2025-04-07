@@ -1,0 +1,133 @@
+body {
+    background: white;
+}
+aside {
+    float: left;
+    background: #00B2B5;
+    width: 14%;
+    padding: 1.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 3px solid #008082;
+}
+aside img{
+    width: 120px;
+    float: center;
+}
+aside h3{
+    margin-top: 35px;
+    font-size: 28px;
+}
+aside h3 a{text-decoration: none;}
+aside h3 li{
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    transition: transform .6s ease;
+}
+aside h3 li:hover, aside h3 a:hover {
+    color: #000000;
+    transform: scale(1.05);
+}
+aside ul {list-style: none}
+aside ul li{
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    transition: transform .6s ease;
+}
+aside ul a {text-decoration: none;}
+aside ul li:hover, aside ul a:hover {
+    color: #000000;
+    transform: scale(1.05);
+}
+main .features {
+    float: left;
+    text-align: center;
+    color: #000;
+    margin-top: 3px;
+    width: 50%;
+    padding: 1.5%;
+}
+main .features p {max-width: 600px; margin: 10px auto; text-align: justify; width: 90%}
+main .ogl{
+    float: left;
+    text-align: center;
+    color: #000;
+    margin-top: 15px;
+    width: 80%;
+}
+main .ogl p{font-size: 18px;}
+main .forms{
+    float: right;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+    width: 30%;
+    padding: 1.5%;
+}
+main .cen{
+    font-size: 22px;
+    float: left;
+    text-align: center;
+    color: #000;
+    margin-top: 15px;
+    width: 80%;
+}
+main .forms p{
+    margin-top: 50px;
+}
+main .forms img{
+    width: 300px;
+    height: 167px;
+}
+main .perehod{
+    float: left;
+    padding: 1.5%;
+    text-align: right;
+}
+main .pictures{
+    float: right;
+    text-align: justify;
+    color: #000;
+    margin-top: 10px;
+    width: 30%;
+    padding: 1.5%;
+}
+main .pictures p{
+    margin-top: 5px;
+}
+main .pictures img{
+    height: 120px;
+    width: 180px;
+}
+main .Nik{
+    font-size: 17px;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+main .Nik img{
+    width: 209px;
+    height: 314px;
+}
+main .Roma{
+    font-size: 17px;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+main .Roma img{
+    width: 209px;
+    height: 314px;
+}
+main .Yura{
+    font-size: 17px;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+main .Yura img{
+    width: 209px;
+    height: 314px;
+}
