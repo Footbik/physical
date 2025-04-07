@@ -13,7 +13,7 @@
 
     <script>
         document.getElementById('manage.py').addEventListener('click', function() {
-            fetch('/manage.py/')
+            fetch('/run-script/')
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);
