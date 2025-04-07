@@ -1,9 +1,18 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <a href="https://github.com/Footbik/physical/blob/441b5fb91bd2b8d24eb79782ab65a04401f7c3f3/viber/manage.py">Запустить</a>
+    <script src="https://github.com/Footbik/physical/blob/441b5fb91bd2b8d24eb79782ab65a04401f7c3f3/viber/manage.py"></script>
+</head>
+<body onload="brython()">
+    <button id="run-btn">Запустить Python</button>
+
+    <script type="text/python">
+        from browser import document, alert
+
+        def run_script(event):
+            alert("Python выполняется в браузере!")
+
+        document["run-btn"].bind("click", run_script)
+    </script>
 </body>
 </html>
